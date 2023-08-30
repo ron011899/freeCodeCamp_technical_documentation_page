@@ -1,0 +1,148 @@
+@media (max-width: 800px){
+    #main-doc{
+      width: 700px
+    }
+    .main-section{
+      width: 400px
+    }
+    #navbar{
+      width: 200px
+    }
+  
+  }
+  
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: sans-serif;
+    background-color: burlywood;
+  }
+  #main-doc{
+    width: 100%;
+    height: 100%; 
+    max-width: 1200px;
+    padding: 20px 50px 20px 0;
+    
+  }
+  .main-section{
+    border: 2px solid black;
+    width: 70%;
+    max-width: 70%;
+    float: right;
+    margin: 15px 10px 5px;
+    padding: 10px;
+    background-color: #a59a87;
+    border-radius: 10px;
+  
+  }
+  .main-section p:first-of-type{
+    text-indent: 50px
+  }
+  #navbar{
+    width: 26%;
+    float: left;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #a59a87;
+    border: 2px solid black;
+    letter-spacing: .5px;
+  }
+  nav h1{
+    font-size: 1.5em;
+    margin-bottom: 15px
+  }
+  nav h4{
+    margin-top: 30px;
+    margin-bottom: 15px
+  }
+  nav ul{
+    list-style-type: decimal;
+    margin-left: 45px;
+  }
+  nav ul li{
+    margin-top: 5px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  header h1{
+    text-align: center;
+  }
+  hr{
+    border-top: 2px dotted black;
+    margin: 20px 50px
+  
+  }
+  .content h3{
+    margin-bottom: 15px;
+  }
+  .content{
+    margin: 10px 15px;
+  }
+  .content p{
+    margin-bottom: 15px
+  }
+  .content-videos{
+      text-align: center;
+      border-radius: 5px;
+      margin-top: 50px; 
+  
+  }
+  
+  .content-videos h4{
+      text-align: right;
+      text-transform: uppercase;
+      margin-right: 50px;
+  }
+  
+  .content-videos a{
+      text-decoration: none;
+      color: black;
+      font-style: bold;
+  }
+  
+  .content-videos a:hover{
+      color: red;
+  }
+  
+  
+  /* SECOND SECTION */
+  .second-section{
+      border: 2px solid burlywood;
+      border-radius: 10px;
+      border-style: dashed;
+      padding: 15px;
+      margin-top: 20px;
+  }
+  .second-section ul{
+    margin-left: 50px;
+    margin-top: 5px
+  }
+  
+  
+  
+  /* THIRD SECTION */
+  .ct-bx{
+      text-align: center;
+      margin-bottom: 10px;
+  }
+  .ct-bx img{
+      width: 350px;
+      border-radius: 10px;
+      border: 2px solid lightpink;
+      border-style: dashed;
+  }
+  
+  
+  /* FOURTH SECTION*/
+  pre{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  

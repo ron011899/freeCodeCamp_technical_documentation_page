@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF">
+        <title>Learn CSS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar"> 
+          <header>
+            <h1>LEARN CSS</h2>
+          </header>
+          <div>
+          <h4>LESSON 1 : Introduction to CSS</h4>
+            <ul>
+              <li><a class="nav-link" href="#What_is_CSS?">What is CSS?</a></li>
+              <li><a class="nav-link" href="#Variations_of_CSS">Variations of CSS</a></li>
+              <li><a class="nav-link" href="#CSS_Syntax">CSS Syntax</a></li>
+              <li><a class="nav-link" href="#CSS_Comments">CSS Comments</a></li>
+            </ul>
+          </div>
+          <div>
+          <h4>LESSON 2 : The CSS Formats</h4>
+            <ul>
+              <li><a class="nav-link" href="#Three_Ways_to_insert_CSS">Three Ways to insert CSS</a></li>
+              <li><a class="nav-link" href="#CSS_Grouping_Selectors">CSS Grouping Selectors</a></li>
+              <li><a class="nav-link" href="#CSS_Nested_Selectors">CSS Nested Selectors</a></li>
+              <li><a class="nav-link" href="#CSS_Id_and_Class">CSS Id and Class</a></li>
+            </ul>
+          </div>
+        </nav>
+      <div class="all-content">
+        <section class="main-section" id="What_is_CSS?">
+          <header>
+              <h1>What is CSS?</h1>
+          </header>
+          <hr>
+          <div class="content">
+              <h3> Cascading Style Sheets </h3>
+              <p> Cascading Style Sheets (CSS) is a style sheet language used to describe the presentation semantics (the look and formatting) of a document written in a markup language. The most common application is to style web pages 
+  written in HTML and XHTML, but the language can also be applied to any kind of XML document. 
+              </p>
+              <p> CSS is designed primarily to enable the separation of document content (written in HTML or a similar markup language) from document presentation, Including elements such as the layout, colors, and fonts.This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple pages to share formatting, and reduce complexity and repetition in the structural content (such as by allowing for table-less web design). 
+              </p>
+              <p> CSS can also allow the same markup page to be presented in different styles for different rendering methods, such as on-screen, in print, by voice (when read out by a speech-based browser or screen reader) and on Braille-based, tactile devices. 
+              </p>
+              <p>  CSS specifies a priority scheme to determine which style rules apply if more than one rule matches against a particular element. In this so-called cascade, priorities or weights are calculated and assigned to rules, so that the results are predictable. 
+              </p>
+              <p> The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/ess is registered for use with CSS by RFC 2318 (March 1998). 
+              </p>
+          </div>
+          <div class="other-references">
+            <div class="content-videos">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/QqmCs2UTS8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h4><a href="https://youtu.be/QqmCs2UTS8s" target="_blank">Link</a></h4>
+            </div>
+          </div> 
+        </section>
+      <!--THIS IS THE SECOND SECTION -->
+        <section class="main-section" id="Variations_of_CSS">
+          <header>
+              <h1>Variations of CSS</h1>
+          </header>
+          <hr>
+          <div class="content">
+            <div class="second-section">
+              <h3> CSS 1 </h3>
+              <p> CSS has various levels and profiles. Each level of CSS builds upon the last, typically adding new features and typically denoted as CSS1, CSS2, and CSS3. Profiles are typically a subset of one or more levels of CSS built for a particular device or user interface. 
+              </p>
+            <div>
+            <u>Among its capabilities are supports for:</u>
+                <ul>
+                    <li>Font properties such as typeface and emphasis</li>
+                    <li>Color of text, backgrounds, and other elements</li>
+                    <li>Text attributes such as spacing between words, letters, and lines of text</li>
+                    <li> Alignment of text, images, tables and other elements</li>
+                    <li>Margin, border, padding, and positioning for most elements</li>
+                    <li>Unique identification and generic classification of groups of attributes</li>
+                    <li>The W3C no longer maintains the CSS1 Recommendation.</li>
+                </ul>
+            </div>
+            </div>
+            <div class="second-section">
+              <h3> CSS 2 </h3> 
+              <p> CSS level 2 specification was developed by the W3C and published as a Recommendation in
+              May 1998. A superset of CSS1, CSS2 includes a number of new capabilities like absolute,
+              relative, and fixed positioning of elements and z-index, the concept of media types, 
+              support for aural style sheets and bidirectional text, and new font properties such as
+              shadows. 
+              </p>
+              <p><i>The W3C no longer maintains the CSS2 Recommendation.</i></p>
+            </div> 
+            <div class="second-section">
+              <h3> CSS 3 </h3> 
+              <p> Instead of defining all features in a single, large specification like CSS2, CSS3 is divided into several 
+              separate documents called "modules". Each module adds new capability or extends features defined in CSS2, 
+              over preserving backward compatibility. Work on A CSS level 3 started around the time of publication of the 
+              original CSS2 Recommendation. The earliest CSS3 drafts were published in June 1999. 
+              </p>
+              <p> Due to the modularization, different modules have different stability and are in different status.
+              As of March 2011, there are over 40 CSS modules published from the CSS Working Group. Some modules 
+              such as Selectors, Namespaces, Color, and Media Queries are considered stable and are in either Candidate
+              Recommendation or Proposed Recommendation Status. 
+              </p>    
+            </div> 
+            <div class="content-videos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/k9jS5TaNFVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h4><a href="https://youtu.be/k9jS5TaNFVo" target="_blank">Link</a></h4>
+          </div>
+        </section> 
+        <!--THIS IS THE THIRD SECTION-->
+        <section class="main-section" id="CSS_Syntax">
+          <header>
+              <h1>CSS Syntax</h1>
+          </header>
+          <hr>
+          <div class="content">
+            <p> A CSS RULE has two main parts : a <b>selector</b>, and one or more <b>declaration</b> </p>
+            <div class="ct-bx">
+              <img src="declaration parts.png" alt="declaration_parts">
+            </div>
+            <p> ► The selector is normally the HTML element you want to style. 
+            <p> ► A CSS declaration always ends with a semicolon, and declaration groups are surrounded by curly brackets. </p> 
+                
+            <p>  Each declaration consists of a property and a value. The property is the style attribute you want to change. Each property has a value. 
+            </p>
+            <div class="content-videos">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/QqmCs2UTS8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h4><a href="https://youtu.be/QqmCs2UTS8s" target="_blank">Link</a></h4>
+            </div>
+          </div>
+        </section>
+        <!--THIS IS THE FOURTH-->
+        <section class="main-section" id="CSS_Comments">
+          <header>
+              <h1>CSS Comments</h1>
+          </header>
+          <hr>
+          <div class="content">
+            <p> Comments are used to explain your code, and may help you when you edit the source code at a later date. Comments are ignored by browsers.  </p>
+            <div> A CSS comment begins with "<i>/*</i>", and ends with "<i>*/</i>"
+        
+                <pre><code>
+                    /*Comment Here*/
+                        p {
+                        Color:blue;
+                        }
+                      </code>
+                </pre>
+            </div>
+            <div class="content-videos">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJqchijLuLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h4><a href="https://youtu.be/ZJqchijLuLE" target="_blank">Link</a></h4>
+            </div>
+          </div>
+        </section> 
+       
+        <!--THIS IS THE FIFTH-->
+         
+        <section class="main-section" id="Three_Ways_to_insert_CSS">
+          <header>
+              <h1>Three Ways to insert CSS</h1>
+          </header>
+          <hr>
+          <div class="content">
+            <h3> There are three ways of inserting a stylesheet:</h3>
+              <ol >
+                <li><u>External Stylesheet</u></li>
+                <li><u>Internal Stylesheet</u></li>
+                <li><u>Inline Stylesheet</u></li>
+              </ol>
+            <h3> External Stylesheet</h3>
+              <p>
+                  An external style sheet is ideal when the style is applied to many pages. With an external style sheet, you can change the look of an entire Web site by 
+                  changing one file. Each page must link to the style sheet using the <link> tag. The <link> tag goes inside the head section.
+              </p>
+              <div><b>Example:</b>
+                  <p>Create a CSS file using Notepad</p>
+                  <p>Save it with .CSS extension name (ex. MyStyle.CSS)</p>
+                  <table>
+                      <tr>
+                          <td>
+        <pre>
+          <code>
+            MyStyle.css
+        p{
+        color:Blue;
+          </code>
+        </pre>
+                         </td> 
+
+                          <td> 
+                      <pre><code>
+                      on your HTML document:
+                      &lt;head&gt;
+                      &lt;link rel=&quot;stylesheet&quot;
+                      type=&quot;text/css&quot;
+                      href=&quot;MyStyle.CSS&quot;
+                      &lt;/head&gt;
+                      </code></pre>
+                        </td>
+                     </tr>
+                  </table>
+              </div>
+                <h3> Internal Stylesheet </h3>
+                    <p>
+                        An internal style sheet should be used when a single document has a unique style. You define 
+                        internal styles in the head section of an HTML page using style tag.
+                    </p>
+                        <div>
+                            <b>Example:</b>
+                          <pre><code>
+                              on your HTML document:
+                              &lt;head&gt;
+                              &lt;style type=&quot;text/css&quot;&gt;
+                              css codes here 
+                              &lt;/style&gt;
+                              &lt;/head&gt; 
+                          </code></pre>
+                        </div>
+                <h3> Inline Stylesheet </h3>   
+                    <p>
+                        An inline style loses many of the advantages of style sheets by mixing content with 
+                        presentation. Use this method sparingly!
+                    </p>
+                    <p> To use inline styles you use the style attribute in the relevant tag. 
+                        The style attribute can contain any CSS property.
+                    </p>
+                        <div><b>Example:</b>
+                        <pre><code>
+                            on your HTML document:
+                                &lt;body&gt;
+                                &lt;p style=&quot;color:blue;
+                                font-size=15px;&quot;&gt; Sample Text&lt;/p&gt;
+                                &lt;/body&gt;
+                        </code></pre>
+                        </div>
+                <div class="content-videos">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/fp7UtJWumUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <h4><a href="https://youtu.be/fp7UtJWumUg" target="_blank">Link</a></h4>
+                </div>
+          </div>
+        </section> 
+        <!--THIS IS THE SIXTH-->
+        
+        <section class="main-section" id="CSS_Grouping_Selectors">
+          <header>
+              <h1>CSS Grouping Selectors</h1>
+          </header>
+          <hr>
+          <div class="content">
+            <p>To minimize the code, you can group selectors. Separate each selector with a comma.</p>
+                                <pre>
+                                h1, h2,p
+                                {
+                                color:green;  
+                                }
+                                </pre>
+            <div class="content-videos">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/eZi_nTOCoZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h4><a href="https://youtu.be/eZi_nTOCoZk" target="_blank">Link</a></h4>
+            </div>
+          </div>
+        </section> 
+        <!--THIS IS THE SEVENTH-->
+         
+        <section class="main-section" id="CSS_Nested_Selectors">
+          <header>
+              <h1>CSS Nested Selectors</h1>
+          </header>
+          <hr>
+          <div class="content">
+            <p>It is possible to apply a style for a selector within a selector.In the example below, one style is specified for all p elements, and a separate style is specified for p elements nested within the "marked" class :</p>
+
+            <h3>CSS :</h3>
+                
+        <pre>
+        p { color:blue; text-align:center; }
+        .marked { background-color:blue; }
+        . marked p { color: white; }
+        </pre>
+
+            <h3>HTML:</h3>
+
+        <pre>
+        &lt;body&gt;
+        &lt;p&gt; This is a blue, center-aligned paragraph. &lt;/p&gt;
+        &lt;div class=&quot;marked&quot;&gt;
+        &lt;p&gt; This p element should not be blue.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;p&gt; p elements inside a "marked" classed element keeps the alignment style,
+        but has a different text color.&lt;/p&gt;
+        &lt;/body&gt;
+
+        This is a blue centered-aligned paragraph
+        This p element should not be blue
+        p elements inside a “marked” classed element keeps the alignment style, 
+        but has a different text color
+
+        ►The selector is normally the HTML element you want to style.
+        ►A CSS declaration always ends with a semicolon, and declaration groups 
+        are surrounded by curly brackets.
+        </pre>
+                    <br>
+                    <p>Each declaration consists of a property and a value. The property is the style attribute 
+                    you want to change. Each property has a value.</p>
+
+            <div class="content-videos">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gDy3oMf6er8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h4><a href="https://youtu.be/gDy3oMf6er8" target="_blank">Link</a></h4>
+            </div>
+          </div>
+        </section>
+        <!--THIS IS THE EIGHT-->
+      
+        <section class="main-section" id="CSS_Id_and_Class"">
+          <header>
+              <h1>CSS Id and Class</h1>
+          </header>
+          <hr>
+          <div class="content">
+            <h3>CSS ID Selector</h3>
+            <p> An <span>ID selector </span>is a unique identifier of the HTML element to which a particular style must be applied.It is used only when a single HTML element on the web page must have a specific style.</p>
+            <p> Both in Internal and External Style Sheets we use <span>hash (#)</span> for an id selector.</p>
+               
+            <h3>CSS Class Selector</h3>
+            <p>A <span>class selector</span> is used when the same style must be applied to multiple HTML elements on the same web page.</p>
+            <p>Both in Internal and External Style Sheets we use a <span>dot (.)</span> for a class selector.</p>
+            <div class="content-videos">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/SHIMUoAJHYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h4><a href="https://youtu.be/SHIMUoAJHYU" target="_blank">Link</a></h4>
+            </div>
+          </div>
+        </section> 
+        
+      </div>
+        
+    </main>
+  </body>
+</html>
